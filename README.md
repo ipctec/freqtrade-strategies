@@ -1,4 +1,4 @@
-# Freqtrade strategies
+# abydonm Freqtrade strategies
 
 This Git repo contains free buy/sell strategies for [Freqtrade](https://github.com/freqtrade/freqtrade).
 
@@ -12,10 +12,6 @@ RESULTS.
 Always start by testing strategies with a backtesting then run the 
 trading bot in Dry-run. Do not engage money before you understand how 
 it works and what profit/loss you should expect.
-
-We strongly recommend you to have coding and Python knowledge. Do not 
-hesitate to read the source code and understand the mechanism of this 
-bot.
 
 ## Table of Content
 
