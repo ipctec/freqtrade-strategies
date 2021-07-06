@@ -1,4 +1,4 @@
-# abydonm Freqtrade strategies
+# abydon Freqtrade strategies collection
 
 This Git repo contains free buy/sell strategies for [Freqtrade](https://github.com/freqtrade/freqtrade).
 
@@ -13,44 +13,9 @@ Always start by testing strategies with a backtesting then run the
 trading bot in Dry-run. Do not engage money before you understand how 
 it works and what profit/loss you should expect.
 
-## Table of Content
-
-- [Free trading strategies](#free-trading-strategies)
-- [Contribute](#share-your-own-strategies-and-contribute-to-this-repo)
-- [FAQ](#faq)
-    - [What is Freqtrade?](#what-is-freqtrade)
-    - [What includes these strategies?](#what-includes-these-strategies)
-    - [How to install a strategy?](#how-to-install-a-strategy)
-    - [How to test a strategy?](#how-to-test-a-strategy)
-    - [How to create/optimize a strategy?](https://www.freqtrade.io/en/latest/strategy-customization/)
-
-## Free trading strategies
-
-Value below are result from backtesting from 2018-01-10 to 2018-01-30 and  
-`ask_strategy.sell_profit_only` enabled. More detail on each strategy 
-page.
-
-|  Strategy | Buy count | AVG profit % | Total profit | AVG duration | Backtest period |
-|-----------|-----------|--------------|--------------|--------------|-----------------|
-| [Strategy 001](https://github.com/freqtrade/freqtrade-strategies/blob/master/user_data/strategies/Strategy001.py) | 55 | 0.05 | 0.00012102 |  476.1 | 2018-01-10 to 2018-01-30 |
-| [Strategy 002](https://github.com/freqtrade/freqtrade-strategies/blob/master/user_data/strategies/Strategy002.py) | 9 | 3.21 | 0.00114807 |  189.4 | 2018-01-10 to 2018-01-30 |
-| [Strategy 003](https://github.com/freqtrade/freqtrade-strategies/blob/master/user_data/strategies/Strategy003.py) | 14 | 1.47 | 0.00081740 |  227.5 | 2018-01-10 to 2018-01-30 | 
-| [Strategy 004](https://github.com/freqtrade/freqtrade-strategies/blob/master/user_data/strategies/Strategy004.py) | 37 | 0.69 | 0.00102128 |  367.3 | 2018-01-10 to 2018-01-30 | 
-| [Strategy 005](https://github.com/freqtrade/freqtrade-strategies/blob/master/user_data/strategies/Strategy005.py) | 180 | 1.16 | 0.00827589 |  156.2 | 2018-01-10 to 2018-01-30 |
-
-
-Strategies from this repo are free to use. Feel free to update them. 
-Most of them  were designed from Hyperopt calculations.
-
-Some only work in specific market conditions, while others are more "general purpose" strategies.
-It's noteworthy that depending on the exchange and Pairs used, further optimization can bring better results.
-
-Please keep in mind, results will heavily depend on the pairs, timeframe and timerange used to backtest - so please run your own backtests that mirror your usecase, to evaluate each strategy for yourself.
-
 ## Share your own strategies and contribute to this repo
 
-Feel free to send your strategies, comments, optimizations and pull requests via an 
-[Issue ticket](https://github.com/freqtrade/freqtrade-strategies/issues/new) or as a [Pull request](https://github.com/freqtrade/freqtrade-strategies/pulls) enhancing this repository.
+Feel free to send your strategies, comments, optimizations :-)
 
 ## FAQ
 
